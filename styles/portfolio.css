@@ -263,10 +263,11 @@ footer{
     margin-right: 24px;
 }
 
-.text input[type=text], .text input[type=email]{
+.text input[type=text], .text input[type=email], textarea{
     width: 461px;
     padding: 18px 31px;
     margin-bottom: 24px;
     border: none;
     border-radius: 5px;
+    color: #757575;
 }

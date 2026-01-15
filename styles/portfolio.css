@@ -118,7 +118,8 @@ nav ul a{
 
 .banner-img{
     max-width: 585px;
-    vertical-align: middle;
+    vertical-align: auto;
+
 }
 
 #about,#skills,#resume{
@@ -270,4 +271,112 @@ footer{
     border: none;
     border-radius: 5px;
     color: #757575;
+}
+
+.hide{
+    display: none !important;
+}
+
+
+@media screen and (max-width:576px){
+
+
+
+    nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.logo h2 {
+    font-size: 35px;
+    
+}
+
+#banner {
+    flex-direction: column;
+}
+
+.banner-content h1{
+    font-size: 50px;
+}
+
+/* .banner-img {
+    max-width: 100%;
+} */
+
+
+    .about-container {
+    width: 100%;
+    padding: 50px 70px;
+    
+}
+
+
+
+    .skills-container {
+    width: 95%;
+    
+    
+}
+
+.section-heading h2, .banner-content h2 {
+    font-size: 30px;
+   
+}
+
+    #about, #skills, #resume {
+    padding-top: 60px;
+}
+
+.skill-box , .about-info {
+   flex-direction: column;
+}
+
+.about-info{
+    gap: 10px;
+}
+.skill-card, .social, .banner-content {
+    max-width: 100%;
+    
+}
+
+.section-heading {
+    max-width: 90%;
+   
+}
+
+.resume-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 60px auto;
+}
+
+.resume-card, .section-title {
+    max-width: 100%;
+    margin: 30px 20px;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 30px 0;
+}
+
+.footer-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.text input[type=text], .text input[type=email], textarea {
+    width: 100%;
+   
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+
 }
